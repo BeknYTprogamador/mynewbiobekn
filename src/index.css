@@ -1,0 +1,53 @@
+:root {
+  --bg-light: #f8f9fa;
+  --text-light: #212529;
+  --card-light: #ffffff;
+
+  --bg-dark: #0d1b2a;   /* deep navy */
+  --text-dark: #ffffff; /* pure white text */
+  --card-dark: #1b263b; /* lighter navy for cards */
+  --accent-blue: #00aaff; /* cyan accent */
+}
+
+body[data-theme='light'] {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+#icons-tech {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin-top: -10px;
+  left:  -2px;
+}
+
+body[data-theme='dark'] {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+body[data-theme='light'],
+body[data-theme='dark'] {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card {
+  background-color: var(--card-light);
+}
+
+body[data-theme='dark'] .card {
+  background-color: var(--card-dark);
+  border: 1px solid var(--accent-blue);
+  box-shadow: 0 0 15px rgba(0,170,255,0.3);
+}
+
+body[data-theme='dark'] h1,
+body[data-theme='dark'] h2,
+body[data-theme='dark'] h3,
+body[data-theme='dark'] p {
+  color: var(--text-dark) !important;
+}
+
+body[data-theme='dark'] span {
+  color: var(--accent-blue) !important;
+}
