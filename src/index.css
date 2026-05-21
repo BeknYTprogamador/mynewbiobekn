@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 :root {
   --bg-light: #f8f9fa;
   --text-light: #212529;
@@ -8,6 +12,7 @@
   --card-dark: #1b263b; /* lighter navy for cards */
   --accent-blue: #00aaff; /* cyan accent */
 }
+
 
 body[data-theme='light'] {
   background-color: var(--bg-light);
@@ -51,3 +56,37 @@ body[data-theme='dark'] p {
 body[data-theme='dark'] span {
   color: var(--accent-blue) !important;
 }
+#gorillaz {
+  font-family: 'Butcherman';
+  font-weight: 800;
+  font-size: 4.5rem;
+  color: #b80505 !important;
+}
+
+#Gorillaz192000{
+  font-family: 'Rubik Spray Paint', cursive;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #af1421 !important;
+}
+#FallOutBoy{
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+#Immortals {
+  font-family: 'Datatype', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  
+}
+
+#feel-good-inc {
+  font-family: 'Datatype', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+
+
+

@@ -25,7 +25,7 @@ function App() {
           style={{ width: "300px", height: "300px", objectFit: "cover" }}
         />
 
-        <h1 className="fw-bold">Bekn</h1>
+        <h1 className="fw-bold fs-1">Bekn</h1>
 
        <button 
   className="btn btn-sm btn-outline-primary position-absolute top-0 end-0 m-3"
