@@ -106,7 +106,7 @@ const FavoriteSongCard = () => {
             <button 
               className="btn btn-outline-light btn-sm w-50 mb-3" 
               style={{ position: 'relative', top: '-10px' }}
-              onClick={() => window.open('https://music.youtube.com/watch?v=J8NKwTYkDH8&si=xxkpE0oB02beXO_P', '_blank')}
+              onClick={() => window.open('https://music.youtube.com/watch?v=PHn5Q7hCjxw&si=G8aGSE9SFYQDFiFC', '_blank')}
             >
               Listen on YouTube Music
             </button>
