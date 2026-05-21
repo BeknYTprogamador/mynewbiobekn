@@ -6,7 +6,7 @@ import Bighero6 from '../assets/bighero6.jpg'
 const FavoriteSongCard = () => {
   return (
     <div className="container my-5">
-      <h1 className="text-light mb-4">Favorite Songs</h1>
+      <h1 className="text-dark mb-4">Favorite Songs</h1>
 
       {/* Wrapper for spacing between cards */}
       <div className="d-flex flex-column align-items-center gap-5">
