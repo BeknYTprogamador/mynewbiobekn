@@ -111,7 +111,7 @@ const FavoriteSongCard = () => {
               Listen on YouTube Music
             </button>
             <p className="card-text small">
-              A catchy and upbeat track with a blend of alternative rock and electronic elements, featuring memorable vocals and a groovy rhythm that has made it a fan favorite since its release.
+              A high-energy anthem with a powerful blend of rock and pop-punk elements, featuring catchy hooks and an uplifting message about resilience and perseverance, making it a standout track from the Big Hero 6 soundtrack and a fan favorite among Fall Out Boy fans.
             </p>
           </div>
         </div>
